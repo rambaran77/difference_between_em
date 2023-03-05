@@ -1,0 +1,52 @@
+.operator{
+    /* padding: 16px;
+    margin: 11px;
+    border-radius: 151px;
+    background-color: aqua; */
+    
+}
+.row{
+    text-align: center;
+    /* border-radius: 45rem; */
+    align-content: center;
+    /* display: block; */
+}
+p{
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: x-large;
+    color: red;
+}
+.input{
+    padding: 11px;
+    margin: 1px;
+    justify-content: right;
+    text-align: center;
+    font-size: medium;
+    font-style: italic;
+    font-family: cursive;
+    font-weight: bold;
+    }
+.button{
+    padding: 16px;
+    margin: 11px;
+    border-radius: 151px;
+    background-color: red;
+    color: white;
+    font-weight: 1000;
+    font-family: sans-serif;
+    font-size: larger;
+}
+.container{
+    background-color: blue;
+}
+.div {
+    display: flex;
+}
+/* div.input{
+    padding: 2px;
+} */
+body{
+    background-color: hsl(128, 100%, 50%);
+}

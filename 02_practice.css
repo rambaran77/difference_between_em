@@ -1,0 +1,52 @@
+body{
+   /* background-color: #f3ba75; */
+margin: none;
+padding: none;
+top: 50%;
+left: 50%;
+}
+.section{
+background-color: red;
+}
+.form{
+margin: 300px;
+align-items: center;
+
+}
+.username{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+   
+}
+.input_username{
+    outline: none;
+    background: transparent;
+    padding: 6px;
+    width: 10rem;
+
+}
+.margin_password{
+    
+}
+label{
+    margin: 2px;
+    padding: 5px;
+    
+}
+.welcome_here{
+   
+}
+button{
+  
+}
+button:hover{
+    
+}
+
+#next{
+   
+}
+.a{
+  
+}
