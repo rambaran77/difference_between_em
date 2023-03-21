@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Box</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        body{
+            background-color: lightblue;
+
+        }
+        .login-box {
+	width: 320px;
+	background: #f2f2f2;
+	padding: 90px 20px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+	margin: auto;
+	margin-top: 50px;
+    position: absolute;
+    left: 50vh;
+    top: 16vw;
+}
+
+.login-box h2 {
+	text-align: center;
+	margin-bottom: 20px;
+	color: #333;
+	position: relative;
+    top: -70px;
+}
+
+.user-box {
+	position: relative;
+}
+
+.user-box input {
+	width: 100%;
+	padding: 10px 0;
+	font-size: 16px;
+	color: #333;
+	margin-bottom: 30px;
+	border: none;
+	border-bottom: 1px solid #ccc;
+	outline: none;
+	background: transparent;
+}
+
+.user-box label {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 10px 0;
+	font-size: 16px;
+	color: #333;
+	pointer-events: none;
+	transition: 0.5s;
+}
+
+.user-box input:focus ~ label,
+.user-box input:valid ~ label {
+	top: -20px;
+	left: 0;
+	color: #4caf50;
+	font-size: 12px;
+}
+
+input[type="submit"] {
+	background: #4caf50;
+	color: #fff;
+	border: none;
+	padding: 10px 130px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+	margin-top: 20px;
+}
+
+input[type="submit"]:hover {
+	background: #333;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: serif;
+    flex-direction: row;
+position: relative;
+left: 25%;
+    
+}
+a:hover{
+    color: red;
+    align-items: center;
+    
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .login-box {
+   
+	background-color: violet;
+    position: absolute;
+    left: 128px
+  }
+}
+.sign{
+    position: absolute;
+    top: 397px;
+    left: 133px;
+    color: brown;
+	
+}
+
+    </style>
+</head>
+<body>
+    <div class="section">
+        <h1>Ram Baran Yadav</h1>
+    </div>
+    <div>
+        <section>
+            welcome to home page
+        </section>
+        <img src="C:\Users\Manoj\calculator\IMG-20210813-WA0007.jpg" alt="">
+    </div>
+	<div class="login-box">
+		<h2>Connect with Me!</h2>
+		<form>
+			<div class="user-box">
+				<input type="text" name="" required="">
+				<label>Username</label>
+                 
+			</div>
+			<div class="user-box">
+				<input type="password" name="" required="">
+				<label>Password</label>
+			</div>
+            <div class="remember">
+            <input type="checkbox" name="" id="">
+            Remember me!
+            <a href="@">Forgot password</a>
+            </div>
+			<input type="submit" name="" value="Submit" id="myBtn">
+			<a href="#" class="sign">Sign up using</a>
+		</form>
+	</div>
+	
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+	<script src="script.js">
+        const myButton = document.getElementById('myBtn');
+
+myButton.addEventListener('click', function() {
+	alert('Button Clicked!');
+});
+
+    </script>
+</html>
